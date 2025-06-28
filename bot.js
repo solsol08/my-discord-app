@@ -22,7 +22,6 @@ client.on("messageCreate", (message) => {
   }
 });
 
-// Slash Commandなら
 client.on("interactionCreate", async (interaction) => {
   if (!interaction.isCommand()) return;
 

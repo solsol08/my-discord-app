@@ -4,7 +4,6 @@ import { DiscordSDK } from "@discord/embedded-app-sdk";
 import ClickGame from "./ClickGame.jsx";
 import TypingGame from "./TypingGame.jsx";
 
-// Client ID を設定
 const discordSdk = new DiscordSDK(import.meta.env.VITE_DISCORD_CLIENT_ID);
 
 function App() {
